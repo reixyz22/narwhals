@@ -17,30 +17,12 @@
 
 ### Problem Summary
 
-<!-- YOUR WORDS — 2-4 sentences. Answer: what is broken/missing, why does it matter?
-Hint from our chat: narwhals has a private internal test helper called assert_equal_data
-that was written before the team added a public narwhals.testing.assert_frame_equal API.
-Now that the public version exists, the test suite should use it consistently — both for
-code hygiene and to dogfood their own public API. The change is spread across hundreds
-of test call sites. -->
-
-> _Write this in your own words. Keep it factual and specific._
-
+We are doing our first ever open source contribution here. We're changing over all instances of assert_equal_data (a private test helper) to narwhals.testing.assert_frame_equal API (public API). 
 ---
 
 ### Why I Chose This Issue
 
-<!-- YOUR WORDS — this is the most important section for CodePath reviewers.
-Hit these points in your own voice:
-- Why this specific issue (not just "it looked doable")
-- What skill match you bring (Python, testing, reading unfamiliar codebases)
-- What you expect to learn
-- Why narwhals specifically interested you (cross-backend DataFrame library)
-
-CodePath's strong example shows: skill match + learning goal + understanding of the
-problem + evidence you engaged with the community. Weak = "it looked interesting."  -->
-
-> _Write this in your own words. Aim for 3-5 sentences._
+I chose this issue because it passed the selection checklist unassigned, well-scoped, and labeled "help wanted" by a maintainer. This issue is fairly reptitive but it'll help me practice inspecting and debugging functions- mass code changes over 100 instances and be easy enough.
 
 ---
 
